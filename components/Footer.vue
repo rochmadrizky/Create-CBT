@@ -1,7 +1,7 @@
 <template>
   <div class="py-4 bg-gray-100 bottom-0">
     <div class="text-center">
-      <p class="font-semibold">&copy;{{ Tahun }} All rights reserved.</p>
+      <p>&copy;{{ Tahun }} All rights reserved.</p>
     </div>
   </div>
 </template>

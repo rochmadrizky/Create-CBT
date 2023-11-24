@@ -6,7 +6,7 @@
     "
   >
     <div class="py-8">
-      <h1 class="font-first text-3xl text-white text-center">Contact Us,</h1>
+      <h1 class="text-3xl text-white text-center">Contact Us,</h1>
       <p class="font-light text-lg text-white text-center">
         by filling in the form below.
       </p>

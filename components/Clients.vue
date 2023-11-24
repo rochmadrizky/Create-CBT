@@ -15,9 +15,9 @@
           <img
             :src="client.logo"
             alt="Logo Klien"
-            class="w-14 h-14 rounded-full mb-2 -top-6 absolute"
+            class="w-24 h-24 rounded-full -top-6 absolute"
           />
-          <div class="text-center pt-10 px-4">
+          <div class="text-center pt-24 px-4">
             <h3 class="text-lg font-semibold">{{ client.name }}</h3>
             <p class="text-sm">{{ client.description }}</p>
           </div>

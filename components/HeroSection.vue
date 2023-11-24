@@ -26,7 +26,7 @@ const props = defineProps([
 const {
   title = "Welcome to Our Website",
   subtitle = "The Best Place to Learn CBT",
-  buttonText = "Get Started Now",
+  buttonText = "Try to Demo",
   backgroundImage = "https://fastly.picsum.photos/id/43/800/500.jpg?hmac=6B76YRP_2LL-WKYygXItPWUN8qdg4CenBfm4GpgLnzw",
 } = props;
 </script>
