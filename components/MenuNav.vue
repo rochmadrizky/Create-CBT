@@ -32,6 +32,14 @@
         >Contact Us</NuxtLink
       >
     </li>
+    <li class="mb-8 ml-3 lg:mb-0">
+      <NuxtLink
+        to="/fetch-data"
+        @click="$emit(`onMenuClick`)"
+        class="font-first md:text-xl"
+        >Fecth Data</NuxtLink
+      >
+    </li>
   </ul>
 </template>
 
