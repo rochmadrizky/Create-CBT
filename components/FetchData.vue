@@ -2,8 +2,13 @@
   <div>
     <h1 class="text-2xl font-bold mb-4">Fetch data pengguna:</h1>
     <ul>
-      <li v-for="data in pengguna" :key="data.id" class="mb-2">
+      <li
+        v-for="data in pengguna"
+        :key="data.id"
+        :class="`mb-2 p-4 border grid grid-cols-4`"
+      >
         <p>nama: {{ data.name }}</p>
+        <p>users: {{ data.username }}</p>
         <p>email: {{ data.email }}</p>
         <p>phone: {{ data.phone }}</p>
       </li>
